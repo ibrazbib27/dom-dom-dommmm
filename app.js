@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function(){
                          if(((document.getElementsByClassName("squares")).length)%2 === 0){
                             
                              if((document.getElementsByClassName("squares")).length-1 === (i)){
-                                 alert("Error: This is the last in the EVEN COUNT sequence, you can not delete the last square in such a sequence!");
+                                 alert("Warning: This is the last in the EVEN COUNT sequence!");
                                  document.body.removeChild(squarez);
                              }
                              else{
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function(){
                          }
                          else{
                                if(0 === i){
-                                 alert("Error: This is the first in the ODD COUNT sequence, you can not delete the first square iin such a sequence!");
+                                 alert("Warning: This is the first in the ODD COUNT sequence!");
                                    document.body.removeChild(squarez);
                              }
                              else{
