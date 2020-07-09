@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function(){
                          if(((document.getElementsByClassName("squares")).length)%2 === 0){
                             
                              if((document.getElementsByClassName("squares")).length-1 === (i)){
-                                 alert("Warning: This is the last in the EVEN COUNT sequence!");
+                                 alert("Warning: This is the last square (no squares come after this one) in the EVEN COUNT sequence!");
                                  document.body.removeChild(squarez);
                              }
                              else{
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function(){
                          }
                          else{
                                if(0 === i){
-                                 alert("Warning: This is the first in the ODD COUNT sequence!");
+                                 alert("Warning: This is the first square (no squares come before this one) in the ODD COUNT sequence!");
                                    document.body.removeChild(squarez);
                              }
                              else{
